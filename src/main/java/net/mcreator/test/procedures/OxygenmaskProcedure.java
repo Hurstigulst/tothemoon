@@ -17,19 +17,22 @@ public class OxygenmaskProcedure {
 		if (entity == null)
 			return;
 		if (!(entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(TestModItems.OXYGEN_BOTTLE.get())) : false)) {
-			TestMod.queueServerWork(80, () -> {
-				entity.hurt(DamageSource.DROWN, 400);
+			TestMod.queueServerWork(200, () -> {
+				for (int index0 = 0; index0 < (int) (8000); index0++) {
+					entity.hurt(DamageSource.DROWN, 400);
+				}
 			});
 			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 999999999, 3, (false), (true)));
+				_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 999999999, 3, (false), (false)));
+			entity.setTicksFrozen(200);
 			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 999999999, 0, (false), (true)));
+				_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 999999999, 0, (false), (false)));
 		}
 		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(TestModItems.OXYGEN_BOTTLE.get())) : false) {
 			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 999999999, 3, (false), (true)));
+				_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 999999999, 3, (false), (false)));
 			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 999999999, 0, (false), (true)));
+				_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 999999999, 0, (false), (false)));
 		}
 	}
 }

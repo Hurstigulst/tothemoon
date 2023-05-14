@@ -9,7 +9,7 @@
     "height": 0.2,
     "scale": 1.0,
     "speedFactor": 0.1,
-    "gravity": 0.01,
+    "gravity": 0.05,
     "maxAge": 70,
     "maxAgeDiff": 30,
     "angularVelocity": 0.0,

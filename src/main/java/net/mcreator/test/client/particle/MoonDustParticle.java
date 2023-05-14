@@ -38,7 +38,7 @@ public class MoonDustParticle extends TextureSheetParticle {
 		this.setSize(0.2f, 0.2f);
 
 		this.lifetime = (int) Math.max(1, 70 + (this.random.nextInt(60) - 30));
-		this.gravity = 0.01f;
+		this.gravity = 0.05f;
 		this.hasPhysics = true;
 		this.xd = vx * 0.1;
 		this.yd = vy * 0.1;

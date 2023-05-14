@@ -9,6 +9,6 @@ import net.mcreator.test.init.TestModParticleTypes;
 public class MakepartexploProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		if (world instanceof ServerLevel _level)
-			_level.sendParticles((SimpleParticleType) (TestModParticleTypes.CHEESEHITPART.get()), x, (y + 1), z, 50, 0, 0, 0, 0.05);
+			_level.sendParticles((SimpleParticleType) (TestModParticleTypes.CHEESEHITPART.get()), x, (y + 1), z, 100, 0.1, 0.1, 0.1, 0.05);
 	}
 }

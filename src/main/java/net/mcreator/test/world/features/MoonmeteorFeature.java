@@ -52,8 +52,8 @@ public class MoonmeteorFeature extends Feature<NoneFeatureConfiguration> {
 		if (template == null)
 			return false;
 		boolean anyPlaced = false;
-		if ((context.random().nextInt(1000000) + 1) <= 10000) {
-			int count = context.random().nextInt(3) + 2;
+		if ((context.random().nextInt(1000000) + 1) <= 500) {
+			int count = context.random().nextInt(9) + 8;
 			for (int a = 0; a < count; a++) {
 				int i = context.origin().getX() + context.random().nextInt(16);
 				int k = context.origin().getZ() + context.random().nextInt(16);
