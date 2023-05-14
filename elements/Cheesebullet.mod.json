@@ -8,9 +8,9 @@
     "name": "Cheesebullet",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:Moon"
     },
-    "stackSize": 64,
+    "stackSize": 15,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,

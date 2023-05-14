@@ -668,68 +668,6 @@
           "src/main/resources/data/test/recipes/blocktocheese.json"
         ]
       }
-    },
-    {
-      "name": "Tomoon",
-      "type": "procedure",
-      "sortid": 38,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tomoon",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/test/procedures/TomoonProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Moonstick",
-      "type": "tool",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "moonstick",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/test/models/item/moonstick.json",
-          "src/main/java/net/mcreator/test/item/MoonstickItem.java"
-        ]
-      }
-    },
-    {
-      "name": "Moonstickres",
-      "type": "recipe",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "moonstickres",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/test/recipes/moonstickres.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -752,7 +690,6 @@
       "block.test.cheese_ore": "Cheese Ore",
       "block.test.block_of_cheese": "Block Of Cheese",
       "biome.test.lunar_maria": "Lunar Maria",
-      "item.test.moonstick": "Moonstick",
       "block.test.dark_moon_dirt": "Dark Moon Dirt",
       "item.test.cheese_curd": "Cheese",
       "itemGroup.tabmoon": "Moon",

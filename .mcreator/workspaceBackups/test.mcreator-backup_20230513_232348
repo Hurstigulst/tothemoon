@@ -670,64 +670,17 @@
       }
     },
     {
-      "name": "Tomoon",
-      "type": "procedure",
+      "name": "Rocket",
+      "type": "livingentity",
       "sortid": 38,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tomoon",
+      "registry_name": "rocket",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/test/procedures/TomoonProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Moonstick",
-      "type": "tool",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "moonstick",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/test/models/item/moonstick.json",
-          "src/main/java/net/mcreator/test/item/MoonstickItem.java"
-        ]
-      }
-    },
-    {
-      "name": "Moonstickres",
-      "type": "recipe",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "moonstickres",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/test/recipes/moonstickres.json"
+          "src/main/resources/assets/test/models/item/rocket_spawn_egg.json",
+          "src/main/java/net/mcreator/test/client/renderer/RocketRenderer.java",
+          "src/main/java/net/mcreator/test/entity/RocketEntity.java"
         ]
       }
     }
@@ -741,8 +694,10 @@
       "item.test.cheese_bow": "Cheese Gun",
       "item.test.grilled_cheese": "Grilled Cheese",
       "item.test.cheese_sword": "Cheese Sword",
+      "item.test.rocket_spawn_egg": "Rocket Spawn Egg",
       "item.test.handheld_moon": "Edible Moon",
       "block.test.moon_rock_cobblestone": "Moon Rock Cobblestone",
+      "entity.test.rocket": "Rocket",
       "item.test.moon_rock_cobblestone_pickaxe": "Moon Stone Pickaxe",
       "item.test.moon_cobblestone_sword": "Moon Cobblestone Sword",
       "item.test.cheesebullet": "Cheesebullet",
@@ -752,7 +707,6 @@
       "block.test.cheese_ore": "Cheese Ore",
       "block.test.block_of_cheese": "Block Of Cheese",
       "biome.test.lunar_maria": "Lunar Maria",
-      "item.test.moonstick": "Moonstick",
       "block.test.dark_moon_dirt": "Dark Moon Dirt",
       "item.test.cheese_curd": "Cheese",
       "itemGroup.tabmoon": "Moon",

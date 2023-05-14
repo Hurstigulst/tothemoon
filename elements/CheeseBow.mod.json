@@ -15,7 +15,7 @@
       "value": ""
     },
     "shootConstantly": true,
-    "usageCount": 100,
+    "usageCount": 15,
     "actionSound": {
       "value": "item.crossbow.shoot"
     },
@@ -23,15 +23,18 @@
     "animation": "none",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "bulletPower": 5.0,
+    "bulletPower": 10.0,
     "bulletDamage": 7.5,
     "bulletKnockback": 15,
-    "bulletParticles": true,
-    "bulletIgnitesFire": false,
+    "bulletParticles": false,
+    "bulletIgnitesFire": true,
     "bulletItemTexture": {
       "value": "CUSTOM:Cheesebullet"
     },
     "bulletModel": "Default",
-    "customBulletModelTexture": ""
+    "customBulletModelTexture": "",
+    "onBulletHitsEntity": {
+      "name": "Makepartexplo"
+    }
   }
 }

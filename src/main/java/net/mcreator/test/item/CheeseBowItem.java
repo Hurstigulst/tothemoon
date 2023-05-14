@@ -18,7 +18,7 @@ import net.mcreator.test.entity.CheeseBowEntity;
 
 public class CheeseBowItem extends Item {
 	public CheeseBowItem() {
-		super(new Item.Properties().tab(TestModTabs.TAB_MOON).durability(100));
+		super(new Item.Properties().tab(TestModTabs.TAB_MOON).durability(15));
 	}
 
 	@Override
@@ -45,7 +45,7 @@ public class CheeseBowItem extends Item {
 			double y = entity.getY();
 			double z = entity.getZ();
 			if (true) {
-				CheeseBowEntity entityarrow = CheeseBowEntity.shoot(world, entity, world.getRandom(), 5f, 7.5, 15);
+				CheeseBowEntity entityarrow = CheeseBowEntity.shoot(world, entity, world.getRandom(), 10f, 7.5, 15);
 				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 				entityarrow.pickup = AbstractArrow.Pickup.DISALLOWED;
 				entity.releaseUsingItem();
