@@ -626,6 +626,48 @@
           }
         ]
       }
+    },
+    {
+      "name": "BlockOfCheese",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_cheese",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/block/BlockOfCheeseBlock.java",
+          "src/main/resources/assets/test/blockstates/block_of_cheese.json",
+          "src/main/resources/assets/test/models/item/block_of_cheese.json",
+          "src/main/resources/assets/test/models/block/block_of_cheese.json"
+        ]
+      }
+    },
+    {
+      "name": "Blockofcheeserec",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockofcheeserec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipes/blockofcheeserec.json"
+        ]
+      }
+    },
+    {
+      "name": "Blocktocheese",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocktocheese",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipes/blocktocheese.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -646,6 +688,7 @@
       "block.test.moon_rock": "Moon Rock",
       "item.test.moon_stone_shovel": "Moon Stone Shovel",
       "block.test.cheese_ore": "Cheese Ore",
+      "block.test.block_of_cheese": "Block Of Cheese",
       "biome.test.lunar_maria": "Lunar Maria",
       "block.test.dark_moon_dirt": "Dark Moon Dirt",
       "item.test.cheese_curd": "Cheese",
