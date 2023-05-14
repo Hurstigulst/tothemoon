@@ -13,8 +13,12 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.test.block.MoonRockCobblestoneBlock;
 import net.mcreator.test.block.MoonRockBlock;
 import net.mcreator.test.block.MoonDirtBlock;
+import net.mcreator.test.block.MoonBrickStairsBlock;
+import net.mcreator.test.block.MoonBrickSlabBlock;
+import net.mcreator.test.block.MoonBrickBlock;
 import net.mcreator.test.block.DarkMoonDirtBlock;
 import net.mcreator.test.block.CheeseOreBlock;
+import net.mcreator.test.block.CheeseLampBlock;
 import net.mcreator.test.block.BlockOfCheeseBlock;
 import net.mcreator.test.TestMod;
 
@@ -26,4 +30,8 @@ public class TestModBlocks {
 	public static final RegistryObject<Block> DARK_MOON_DIRT = REGISTRY.register("dark_moon_dirt", () -> new DarkMoonDirtBlock());
 	public static final RegistryObject<Block> CHEESE_ORE = REGISTRY.register("cheese_ore", () -> new CheeseOreBlock());
 	public static final RegistryObject<Block> BLOCK_OF_CHEESE = REGISTRY.register("block_of_cheese", () -> new BlockOfCheeseBlock());
+	public static final RegistryObject<Block> MOON_BRICK = REGISTRY.register("moon_brick", () -> new MoonBrickBlock());
+	public static final RegistryObject<Block> MOON_BRICK_STAIRS = REGISTRY.register("moon_brick_stairs", () -> new MoonBrickStairsBlock());
+	public static final RegistryObject<Block> CHEESE_LAMP = REGISTRY.register("cheese_lamp", () -> new CheeseLampBlock());
+	public static final RegistryObject<Block> MOON_BRICK_SLAB = REGISTRY.register("moon_brick_slab", () -> new MoonBrickSlabBlock());
 }

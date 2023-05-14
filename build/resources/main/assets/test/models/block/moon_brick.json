@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "test:blocks/moonbrick",
+    "up": "test:blocks/moonbrick",
+    "north": "test:blocks/moonbrick",
+    "east": "test:blocks/moonbrick",
+    "south": "test:blocks/moonbrick",
+    "west": "test:blocks/moonbrick",
+    "particle": "test:blocks/moonbrickpart"
+  },
+  "render_type": "solid"
+}

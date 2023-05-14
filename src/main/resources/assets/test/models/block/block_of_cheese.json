@@ -7,7 +7,7 @@
     "east": "test:blocks/cheeseblock",
     "south": "test:blocks/cheeseblock",
     "west": "test:blocks/cheeseblock",
-    "particle": "test:blocks/cheeseblock"
+    "particle": "test:blocks/cheesepart"
   },
   "render_type": "solid"
 }

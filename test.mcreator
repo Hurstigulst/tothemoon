@@ -668,6 +668,171 @@
           "src/main/resources/data/test/recipes/blocktocheese.json"
         ]
       }
+    },
+    {
+      "name": "MoonBrick",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_brick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/block/MoonBrickBlock.java",
+          "src/main/resources/assets/test/models/block/moon_brick.json",
+          "src/main/resources/assets/test/models/item/moon_brick.json",
+          "src/main/resources/assets/test/blockstates/moon_brick.json"
+        ]
+      }
+    },
+    {
+      "name": "Moonbrickres",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moonbrickres",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipes/moonbrickres.json"
+        ]
+      }
+    },
+    {
+      "name": "MoonBrickStairs",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/blockstates/moon_brick_stairs.json",
+          "src/main/resources/assets/test/models/item/moon_brick_stairs.json",
+          "src/main/resources/assets/test/models/block/moon_brick_stairs.json",
+          "src/main/resources/assets/test/models/block/moon_brick_stairs_outer.json",
+          "src/main/resources/assets/test/models/block/moon_brick_stairs_inner.json",
+          "src/main/java/net/mcreator/test/block/MoonBrickStairsBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "MoonBrickStairsRes",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_brick_stairs_res",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipes/moon_brick_stairs_res.json"
+        ]
+      }
+    },
+    {
+      "name": "Walkdust",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "walkdust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/WalkdustProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CheeseLamp",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/blockstates/cheese_lamp.json",
+          "src/main/java/net/mcreator/test/block/CheeseLampBlock.java",
+          "src/main/resources/assets/test/models/item/cheese_lamp.json",
+          "src/main/resources/assets/test/models/block/cheese_lamp.json"
+        ]
+      }
+    },
+    {
+      "name": "Cheeselampres",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheeselampres",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipes/cheeselampres.json"
+        ]
+      }
+    },
+    {
+      "name": "MoonDungeon",
+      "type": "structure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_dungeon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/world/features/MoonDungeonFeature.java",
+          "src/main/resources/data/test/forge/biome_modifier/moon_dungeon_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "MoonBrickSlab",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/models/item/moon_brick_slab.json",
+          "src/main/resources/assets/test/models/block/moon_brick_slab_top.json",
+          "src/main/resources/assets/test/models/block/moon_brick_slab.json",
+          "src/main/java/net/mcreator/test/block/MoonBrickSlabBlock.java",
+          "src/main/resources/assets/test/blockstates/moon_brick_slab.json",
+          "src/main/resources/assets/test/models/block/moon_brick_slab_full.json"
+        ]
+      }
+    },
+    {
+      "name": "Moonbricksplabres",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moonbricksplabres",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipes/moonbricksplabres.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -677,24 +842,28 @@
       "item.test.handheld_earth": "Edible Earth",
       "biome.test.the_moon": "Lunar Highlands",
       "item.test.cheese_bow": "Cheese Gun",
+      "block.test.moon_brick_stairs": "Moon Brick Stairs",
       "item.test.grilled_cheese": "Grilled Cheese",
       "item.test.cheese_sword": "Cheese Sword",
       "item.test.handheld_moon": "Edible Moon",
-      "block.test.moon_rock_cobblestone": "Moon Rock Cobblestone",
-      "item.test.moon_rock_cobblestone_pickaxe": "Moon Stone Pickaxe",
+      "block.test.cheese_lamp": "Cheese Lamp",
       "item.test.moon_cobblestone_sword": "Moon Cobblestone Sword",
       "item.test.cheesebullet": "Cheesebullet",
       "item.test.oxygen_bottle": "Oxygen Bottle",
-      "block.test.moon_rock": "Moon Rock",
-      "item.test.moon_stone_shovel": "Moon Stone Shovel",
-      "block.test.cheese_ore": "Cheese Ore",
+      "block.test.moon_brick": "Moon Brick",
       "block.test.block_of_cheese": "Block Of Cheese",
-      "biome.test.lunar_maria": "Lunar Maria",
       "block.test.dark_moon_dirt": "Dark Moon Dirt",
-      "item.test.cheese_curd": "Cheese",
       "itemGroup.tabmoon": "Moon",
       "block.test.moon_dirt": "Moon Dirt",
-      "item.test.the_cheese_world": "The Cheese World Portal Igniter"
+      "item.test.the_cheese_world": "The Cheese World Portal Igniter",
+      "block.test.moon_rock_cobblestone": "Moon Rock Cobblestone",
+      "item.test.moon_rock_cobblestone_pickaxe": "Moon Stone Pickaxe",
+      "block.test.moon_rock": "Moon Rock",
+      "block.test.moon_brick_slab": "Moon Brick Slab",
+      "item.test.moon_stone_shovel": "Moon Stone Shovel",
+      "block.test.cheese_ore": "Cheese Ore",
+      "biome.test.lunar_maria": "Lunar Maria",
+      "item.test.cheese_curd": "Cheese"
     }
   },
   "foldersRoot": {

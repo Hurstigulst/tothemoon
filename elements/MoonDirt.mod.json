@@ -117,13 +117,19 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRandomUpdateEvent": {
-      "name": "Dustpoof"
-    },
     "onDestroyedByPlayer": {
       "name": "Dustpoof"
     },
+    "onDestroyedByExplosion": {
+      "name": "Dustpoof"
+    },
+    "onEntityWalksOn": {
+      "name": "Walkdust"
+    },
     "onBlockPlayedBy": {
+      "name": "Dustpoof"
+    },
+    "onHitByProjectile": {
       "name": "Dustpoof"
     },
     "spawnWorldTypes": [],

@@ -45,6 +45,10 @@ public class TestModItems {
 	public static final RegistryObject<Item> CHEESE_BOW = REGISTRY.register("cheese_bow", () -> new CheeseBowItem());
 	public static final RegistryObject<Item> OXYGEN_BOTTLE = REGISTRY.register("oxygen_bottle", () -> new OxygenBottleItem());
 	public static final RegistryObject<Item> BLOCK_OF_CHEESE = block(TestModBlocks.BLOCK_OF_CHEESE, TestModTabs.TAB_MOON);
+	public static final RegistryObject<Item> MOON_BRICK = block(TestModBlocks.MOON_BRICK, TestModTabs.TAB_MOON);
+	public static final RegistryObject<Item> MOON_BRICK_STAIRS = block(TestModBlocks.MOON_BRICK_STAIRS, TestModTabs.TAB_MOON);
+	public static final RegistryObject<Item> CHEESE_LAMP = block(TestModBlocks.CHEESE_LAMP, TestModTabs.TAB_MOON);
+	public static final RegistryObject<Item> MOON_BRICK_SLAB = block(TestModBlocks.MOON_BRICK_SLAB, TestModTabs.TAB_MOON);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

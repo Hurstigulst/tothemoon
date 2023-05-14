@@ -7,7 +7,7 @@
     "east": "test:blocks/mooncobblestone",
     "south": "test:blocks/mooncobblestone",
     "west": "test:blocks/mooncobblestone",
-    "particle": "test:blocks/mooncobblestone"
+    "particle": "test:blocks/moonrockpart"
   },
   "render_type": "solid"
 }

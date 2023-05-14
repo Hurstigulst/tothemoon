@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "test:cheese_curd"
+    },
+    "3": {
+      "item": "test:cheese_curd"
+    },
+    "4": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "5": {
+      "item": "test:cheese_curd"
+    },
+    "7": {
+      "item": "test:cheese_curd"
+    }
+  },
+  "result": {
+    "item": "test:cheese_lamp",
+    "count": 1
+  }
+}

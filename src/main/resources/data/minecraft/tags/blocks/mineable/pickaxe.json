@@ -3,6 +3,9 @@
   "values": [
     "test:moon_rock",
     "test:moon_rock_cobblestone",
-    "test:cheese_ore"
+    "test:cheese_ore",
+    "test:moon_brick",
+    "test:moon_brick_stairs",
+    "test:moon_brick_slab"
   ]
 }

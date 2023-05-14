@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "test:blocks/cheeselamp",
+    "up": "test:blocks/cheeselamp",
+    "north": "test:blocks/cheeselamp",
+    "east": "test:blocks/cheeselamp",
+    "south": "test:blocks/cheeselamp",
+    "west": "test:blocks/cheeselamp",
+    "particle": "test:blocks/cheesepart"
+  },
+  "render_type": "solid"
+}

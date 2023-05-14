@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "test:moon_brick"
+    },
+    "4": {
+      "item": "test:moon_brick"
+    },
+    "5": {
+      "item": "test:moon_brick"
+    },
+    "6": {
+      "item": "test:moon_brick"
+    },
+    "7": {
+      "item": "test:moon_brick"
+    },
+    "8": {
+      "item": "test:moon_brick"
+    }
+  },
+  "result": {
+    "item": "test:moon_brick_stairs",
+    "count": 4
+  }
+}
