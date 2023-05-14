@@ -1,0 +1,27 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "mooncobblestonesword",
+    "customModelName": "Normal",
+    "name": "Moon Cobblestone Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Moon"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 1.5999999999999999,
+    "enchantability": 2,
+    "damageVsEntity": 5.0,
+    "usageCount": 150,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

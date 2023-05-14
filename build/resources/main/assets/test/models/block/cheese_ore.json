@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "test:blocks/cheeseore",
+    "up": "test:blocks/cheeseore",
+    "north": "test:blocks/cheeseore",
+    "east": "test:blocks/cheeseore",
+    "south": "test:blocks/cheeseore",
+    "west": "test:blocks/cheeseore",
+    "particle": "test:blocks/cheeseorepart"
+  },
+  "render_type": "solid"
+}

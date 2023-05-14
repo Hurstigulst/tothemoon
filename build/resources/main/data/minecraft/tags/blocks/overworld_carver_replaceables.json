@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "test:moon_rock",
+    "test:moon_dirt",
+    "test:dark_moon_dirt"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "test:cheese_curd"
+    },
+    "1": {
+      "item": "test:cheese_curd"
+    },
+    "2": {
+      "item": "test:cheese_curd"
+    },
+    "3": {
+      "item": "test:cheese_curd"
+    },
+    "4": {
+      "item": "test:cheese_curd"
+    },
+    "5": {
+      "item": "test:cheese_curd"
+    },
+    "6": {
+      "item": "test:cheese_curd"
+    },
+    "7": {
+      "item": "test:cheese_curd"
+    },
+    "8": {
+      "item": "test:cheese_curd"
+    }
+  },
+  "result": {
+    "item": "test:block_of_cheese",
+    "count": 1
+  }
+}

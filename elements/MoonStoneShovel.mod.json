@@ -1,0 +1,27 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "moonstoneshovel",
+    "customModelName": "Normal",
+    "name": "Moon Stone Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Moon"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 3,
+    "efficiency": 4.5,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 2.0,
+    "usageCount": 130,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

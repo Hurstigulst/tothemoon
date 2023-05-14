@@ -1,0 +1,23 @@
+{
+  "item.test.handheld_earth": "Edible Earth",
+  "biome.test.the_moon": "Lunar Highlands",
+  "item.test.cheese_bow": "Cheese Gun",
+  "item.test.grilled_cheese": "Grilled Cheese",
+  "item.test.cheese_sword": "Cheese Sword",
+  "item.test.handheld_moon": "Edible Moon",
+  "block.test.moon_rock_cobblestone": "Moon Rock Cobblestone",
+  "item.test.moon_rock_cobblestone_pickaxe": "Moon Stone Pickaxe",
+  "item.test.moon_cobblestone_sword": "Moon Cobblestone Sword",
+  "item.test.cheesebullet": "Cheesebullet",
+  "item.test.oxygen_bottle": "Oxygen Bottle",
+  "block.test.moon_rock": "Moon Rock",
+  "item.test.moon_stone_shovel": "Moon Stone Shovel",
+  "block.test.cheese_ore": "Cheese Ore",
+  "block.test.block_of_cheese": "Block Of Cheese",
+  "biome.test.lunar_maria": "Lunar Maria",
+  "block.test.dark_moon_dirt": "Dark Moon Dirt",
+  "item.test.cheese_curd": "Cheese",
+  "itemGroup.tabmoon": "Moon",
+  "block.test.moon_dirt": "Moon Dirt",
+  "item.test.the_cheese_world": "The Cheese World Portal Igniter"
+}

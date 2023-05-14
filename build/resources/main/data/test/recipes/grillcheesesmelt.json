@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 13,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "test:cheese_curd"
+  },
+  "result": "test:grilled_cheese"
+}

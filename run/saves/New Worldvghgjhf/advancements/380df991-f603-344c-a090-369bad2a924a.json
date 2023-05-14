@@ -1,0 +1,17 @@
+{
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2023-05-13 00:24:24 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:birch_forest": "2023-05-13 00:26:26 -0700",
+      "minecraft:meadow": "2023-05-13 00:26:30 -0700",
+      "minecraft:savanna": "2023-05-13 00:23:54 -0700"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

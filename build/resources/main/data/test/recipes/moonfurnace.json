@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "test:moon_rock_cobblestone"
+    },
+    "1": {
+      "item": "test:moon_rock_cobblestone"
+    },
+    "2": {
+      "item": "test:moon_rock_cobblestone"
+    },
+    "3": {
+      "item": "test:moon_rock_cobblestone"
+    },
+    "5": {
+      "item": "test:moon_rock_cobblestone"
+    },
+    "6": {
+      "item": "test:moon_rock_cobblestone"
+    },
+    "7": {
+      "item": "test:moon_rock_cobblestone"
+    },
+    "8": {
+      "item": "test:moon_rock_cobblestone"
+    }
+  },
+  "result": {
+    "item": "minecraft:furnace",
+    "count": 1
+  }
+}

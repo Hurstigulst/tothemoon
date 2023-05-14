@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "test:blocks/moondirtall",
+    "up": "test:blocks/moondirtall",
+    "north": "test:blocks/moondirtall",
+    "east": "test:blocks/moondirtall",
+    "south": "test:blocks/moondirtall",
+    "west": "test:blocks/moondirtall",
+    "particle": "test:blocks/moon"
+  },
+  "render_type": "solid"
+}

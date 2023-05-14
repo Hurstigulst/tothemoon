@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "test:cheese_curd"
+    },
+    "1": {
+      "item": "test:grilled_cheese"
+    },
+    "2": {
+      "item": "test:cheese_curd"
+    },
+    "3": {
+      "item": "test:grilled_cheese"
+    },
+    "4": {
+      "item": "test:moon_cobblestone_sword"
+    },
+    "5": {
+      "item": "test:grilled_cheese"
+    },
+    "6": {
+      "item": "minecraft:bone"
+    },
+    "7": {
+      "item": "minecraft:bone"
+    },
+    "8": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "test:cheese_sword",
+    "count": 1
+  }
+}

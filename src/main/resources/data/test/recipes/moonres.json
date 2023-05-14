@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "test:moon_rock"
+    },
+    "1": {
+      "item": "test:moon_rock"
+    },
+    "2": {
+      "item": "test:moon_rock"
+    },
+    "3": {
+      "item": "test:moon_rock"
+    },
+    "4": {
+      "item": "minecraft:golden_apple"
+    },
+    "5": {
+      "item": "test:moon_rock"
+    },
+    "6": {
+      "item": "test:moon_rock"
+    },
+    "7": {
+      "item": "test:moon_rock"
+    },
+    "8": {
+      "item": "test:moon_rock"
+    }
+  },
+  "result": {
+    "item": "test:handheld_moon",
+    "count": 1
+  }
+}

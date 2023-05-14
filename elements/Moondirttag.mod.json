@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:MoonDirt"
+      },
+      {
+        "value": "CUSTOM:DarkMoonDirt"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "moondirttag",
+    "namespace": "minecraft"
+  }
+}

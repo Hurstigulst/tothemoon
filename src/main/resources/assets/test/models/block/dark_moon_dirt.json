@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "test:blocks/darkmoondirt",
+    "up": "test:blocks/darkmoondirt",
+    "north": "test:blocks/darkmoondirt",
+    "east": "test:blocks/darkmoondirt",
+    "south": "test:blocks/darkmoondirt",
+    "west": "test:blocks/darkmoondirt",
+    "particle": "test:blocks/moonrockpart"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "test:grilled_cheese"
+    },
+    "3": {
+      "item": "minecraft:redstone_block"
+    },
+    "4": {
+      "item": "test:cheese_sword"
+    },
+    "5": {
+      "item": "test:grilled_cheese"
+    },
+    "7": {
+      "item": "test:grilled_cheese"
+    }
+  },
+  "result": {
+    "item": "test:cheese_bow",
+    "count": 1
+  }
+}

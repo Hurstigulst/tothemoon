@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "test:blocks/mooncobblestone",
+    "up": "test:blocks/mooncobblestone",
+    "north": "test:blocks/mooncobblestone",
+    "east": "test:blocks/mooncobblestone",
+    "south": "test:blocks/mooncobblestone",
+    "west": "test:blocks/mooncobblestone",
+    "particle": "test:blocks/mooncobblestone"
+  },
+  "render_type": "solid"
+}
