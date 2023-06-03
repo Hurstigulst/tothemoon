@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.test.block.SapphireOreBlock;
 import net.mcreator.test.block.MoonRockCobblestoneBlock;
 import net.mcreator.test.block.MoonRockBlock;
 import net.mcreator.test.block.MoonDirtBlock;
@@ -20,6 +21,7 @@ import net.mcreator.test.block.DarkMoonDirtBlock;
 import net.mcreator.test.block.CheeseOreBlock;
 import net.mcreator.test.block.CheeseLampBlock;
 import net.mcreator.test.block.BlockOfCheeseBlock;
+import net.mcreator.test.block.AntiwaterBlock;
 import net.mcreator.test.TestMod;
 
 public class TestModBlocks {
@@ -34,4 +36,6 @@ public class TestModBlocks {
 	public static final RegistryObject<Block> MOON_BRICK_STAIRS = REGISTRY.register("moon_brick_stairs", () -> new MoonBrickStairsBlock());
 	public static final RegistryObject<Block> CHEESE_LAMP = REGISTRY.register("cheese_lamp", () -> new CheeseLampBlock());
 	public static final RegistryObject<Block> MOON_BRICK_SLAB = REGISTRY.register("moon_brick_slab", () -> new MoonBrickSlabBlock());
+	public static final RegistryObject<Block> SAPPHIRE_ORE = REGISTRY.register("sapphire_ore", () -> new SapphireOreBlock());
+	public static final RegistryObject<Block> ANTIWATER = REGISTRY.register("antiwater", () -> new AntiwaterBlock());
 }

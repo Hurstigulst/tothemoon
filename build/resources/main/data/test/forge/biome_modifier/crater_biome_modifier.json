@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "test:the_moon",
+    "test:lunar_maria"
+  ],
+  "features": "test:crater",
+  "step": "surface_structures"
+}

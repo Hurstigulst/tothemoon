@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "test:sapphire"
+    },
+    "2": {
+      "item": "test:sapphire"
+    },
+    "3": {
+      "item": "test:sapphire"
+    },
+    "4": {
+      "item": "test:sapphire"
+    },
+    "5": {
+      "item": "test:sapphire"
+    },
+    "6": {
+      "item": "test:sapphire"
+    },
+    "7": {
+      "item": "test:sapphire"
+    },
+    "8": {
+      "item": "test:sapphire"
+    }
+  },
+  "result": {
+    "item": "test:blue_armor_chestplate",
+    "count": 1
+  }
+}

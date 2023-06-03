@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "test:cheese_bow"
+    },
+    "title": {
+      "translate": "advancements.thuresagun.title"
+    },
+    "description": {
+      "translate": "advancements.thuresagun.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "thuresagun": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "test:cheese_bow"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "test:swords"
+}

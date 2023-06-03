@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "test:cheese_sword"
+    },
+    "title": {
+      "translate": "advancements.swords.title"
+    },
+    "description": {
+      "translate": "advancements.swords.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "swords": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "test:cheese_sword"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "test:grilled"
+}

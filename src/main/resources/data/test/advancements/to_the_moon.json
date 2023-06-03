@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "test:handheld_moon"
+    },
+    "title": {
+      "translate": "advancements.to_the_moon.title"
+    },
+    "description": {
+      "translate": "advancements.to_the_moon.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "to_the_moon": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "test:the_cheese_world"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "test:anediblemoon"
+}

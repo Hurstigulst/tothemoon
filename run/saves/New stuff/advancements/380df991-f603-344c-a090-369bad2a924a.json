@@ -1,0 +1,159 @@
+{
+  "test:to_the_moon": {
+    "criteria": {
+      "to_the_moon": "2023-06-03 14:35:38 -0700"
+    },
+    "done": true
+  },
+  "test:home": {
+    "criteria": {
+      "home": "2023-06-03 14:54:01 -0700"
+    },
+    "done": true
+  },
+  "test:swords": {
+    "criteria": {
+      "swords": "2023-06-03 14:37:04 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_carpet_from_white_carpet": {
+    "criteria": {
+      "has_white_carpet": "2023-06-03 15:02:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_carpet_from_white_carpet": {
+    "criteria": {
+      "has_white_carpet": "2023-06-03 15:02:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_carpet_from_white_carpet": {
+    "criteria": {
+      "has_white_carpet": "2023-06-03 15:02:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_carpet_from_white_carpet": {
+    "criteria": {
+      "has_white_carpet": "2023-06-03 15:02:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_carpet_from_white_carpet": {
+    "criteria": {
+      "has_white_carpet": "2023-06-03 15:02:22 -0700"
+    },
+    "done": true
+  },
+  "test:grilled": {
+    "criteria": {
+      "grilled": "2023-06-03 14:36:09 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_slopes": "2023-06-03 14:59:06 -0700",
+      "minecraft:taiga": "2023-06-03 14:35:00 -0700",
+      "minecraft:frozen_river": "2023-06-03 14:59:04 -0700",
+      "minecraft:snowy_plains": "2023-06-03 14:54:06 -0700",
+      "minecraft:dripstone_caves": "2023-06-03 14:54:19 -0700",
+      "minecraft:grove": "2023-06-03 14:34:18 -0700",
+      "minecraft:ice_spikes": "2023-06-03 14:59:12 -0700"
+    },
+    "done": false
+  },
+  "test:thuresagun": {
+    "criteria": {
+      "thuresagun": "2023-06-03 14:37:07 -0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2023-06-03 14:35:38 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_carpet_from_white_carpet": {
+    "criteria": {
+      "has_white_carpet": "2023-06-03 15:02:22 -0700"
+    },
+    "done": true
+  },
+  "test:anediblemoon": {
+    "criteria": {
+      "anediblemoon": "2023-06-03 14:35:05 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_carpet_from_white_carpet": {
+    "criteria": {
+      "has_white_carpet": "2023-06-03 15:02:22 -0700"
+    },
+    "done": true
+  },
+  "test:cheese": {
+    "criteria": {
+      "cheese": "2023-06-03 14:36:03 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_carpet_from_white_carpet": {
+    "criteria": {
+      "has_white_carpet": "2023-06-03 15:02:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet_from_white_carpet": {
+    "criteria": {
+      "has_white_carpet": "2023-06-03 15:02:22 -0700"
+    },
+    "done": true
+  },
+  "test:whoops": {
+    "criteria": {
+      "whoops": "2023-06-03 14:35:50 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet_from_white_carpet": {
+    "criteria": {
+      "has_white_carpet": "2023-06-03 15:02:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_carpet_from_white_carpet": {
+    "criteria": {
+      "has_white_carpet": "2023-06-03 15:02:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_carpet_from_white_carpet": {
+    "criteria": {
+      "has_white_carpet": "2023-06-03 15:02:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_carpet_from_white_carpet": {
+    "criteria": {
+      "has_white_carpet": "2023-06-03 15:02:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_carpet_from_white_carpet": {
+    "criteria": {
+      "has_white_carpet": "2023-06-03 15:02:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet_from_white_carpet": {
+    "criteria": {
+      "has_white_carpet": "2023-06-03 15:02:22 -0700"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}

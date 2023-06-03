@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "test:handheld_earth"
+    },
+    "title": {
+      "translate": "advancements.home.title"
+    },
+    "description": {
+      "translate": "advancements.home.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "home": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "test:handheld_earth"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "test:to_the_moon"
+}

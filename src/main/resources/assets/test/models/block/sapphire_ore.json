@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "test:blocks/sapphireoretex",
+    "up": "test:blocks/sapphireoretex",
+    "north": "test:blocks/sapphireoretex",
+    "east": "test:blocks/sapphireoretex",
+    "south": "test:blocks/sapphireoretex",
+    "west": "test:blocks/sapphireoretex",
+    "particle": "test:blocks/sapphireoretex"
+  },
+  "render_type": "solid"
+}

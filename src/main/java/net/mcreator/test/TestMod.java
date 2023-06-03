@@ -32,6 +32,8 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.test.init.TestModTabs;
 import net.mcreator.test.init.TestModParticleTypes;
 import net.mcreator.test.init.TestModItems;
+import net.mcreator.test.init.TestModFluids;
+import net.mcreator.test.init.TestModFluidTypes;
 import net.mcreator.test.init.TestModFeatures;
 import net.mcreator.test.init.TestModEntities;
 import net.mcreator.test.init.TestModBlocks;
@@ -61,6 +63,8 @@ public class TestMod {
 		TestModEntities.REGISTRY.register(bus);
 
 		TestModFeatures.REGISTRY.register(bus);
+		TestModFluids.REGISTRY.register(bus);
+		TestModFluidTypes.REGISTRY.register(bus);
 
 		TestModParticleTypes.REGISTRY.register(bus);
 

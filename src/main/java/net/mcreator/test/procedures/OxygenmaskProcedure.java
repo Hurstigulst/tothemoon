@@ -8,9 +8,15 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.advancements.AdvancementProgress;
+import net.minecraft.advancements.Advancement;
 
 import net.mcreator.test.init.TestModItems;
 import net.mcreator.test.TestMod;
+
+import java.util.Iterator;
 
 public class OxygenmaskProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
@@ -20,6 +26,15 @@ public class OxygenmaskProcedure {
 			TestMod.queueServerWork(200, () -> {
 				for (int index0 = 0; index0 < (int) (8000); index0++) {
 					entity.hurt(DamageSource.DROWN, 400);
+				}
+				if (entity instanceof ServerPlayer _player) {
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("test:whoops"));
+					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+					if (!_ap.isDone()) {
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
+					}
 				}
 			});
 			if (entity instanceof LivingEntity _entity)

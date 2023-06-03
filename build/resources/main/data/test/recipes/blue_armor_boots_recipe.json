@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "test:sapphire"
+    },
+    "2": {
+      "item": "test:sapphire"
+    },
+    "3": {
+      "item": "test:sapphire"
+    },
+    "5": {
+      "item": "test:sapphire"
+    }
+  },
+  "result": {
+    "item": "test:blue_armor_boots",
+    "count": 1
+  }
+}
